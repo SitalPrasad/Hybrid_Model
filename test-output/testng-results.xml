@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-29T14:30:51 AEST" name="Default suite" finished-at="2023-05-29T14:30:57 AEST" duration-ms="6846">
+  <suite started-at="2023-06-04T11:12:14 AEST" name="Default suite" finished-at="2023-06-04T11:12:25 AEST" duration-ms="11180">
     <groups>
     </groups>
-    <test started-at="2023-05-29T14:30:51 AEST" name="Default test" finished-at="2023-05-29T14:30:57 AEST" duration-ms="6846">
-      <class name="uk.co.automationtesting.TestCases.ShopLoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:uk.co.automationtesting.TestCases.ShopLoginTest@236ab296]" started-at="2023-05-29T14:30:51 AEST" name="setup" finished-at="2023-05-29T14:30:56 AEST" duration-ms="5297" status="PASS">
+    <test started-at="2023-06-04T11:12:14 AEST" name="Default test" finished-at="2023-06-04T11:12:25 AEST" duration-ms="11180">
+      <class name="testCases.ShopLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:14 AEST" name="setup" finished-at="2023-06-04T11:12:19 AEST" duration-ms="5271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:uk.co.automationtesting.TestCases.ShopLoginTest@236ab296]" started-at="2023-05-29T14:30:56 AEST" name="loginTest" finished-at="2023-05-29T14:30:57 AEST" duration-ms="1506" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:20 AEST" name="loginTest" data-provider="getData" finished-at="2023-06-04T11:12:22 AEST" duration-ms="2057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:uk.co.automationtesting.TestCases.ShopLoginTest@236ab296]" started-at="2023-05-29T14:30:57 AEST" name="tearDown" finished-at="2023-05-29T14:30:57 AEST" duration-ms="0" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:23 AEST" name="loginTest" data-provider="getData" finished-at="2023-06-04T11:12:23 AEST" duration-ms="475" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:24 AEST" name="loginTest" data-provider="getData" finished-at="2023-06-04T11:12:24 AEST" duration-ms="443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lucy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[catlover1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:24 AEST" name="loginTest" data-provider="getData" finished-at="2023-06-04T11:12:25 AEST" duration-ms="405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[martin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ilovepasta5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ShopLoginTest@63fbfaeb]" started-at="2023-06-04T11:12:25 AEST" name="tearDown" finished-at="2023-06-04T11:12:25 AEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- uk.co.automationtesting.TestCases.ShopLoginTest -->
+      </class> <!-- testCases.ShopLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
